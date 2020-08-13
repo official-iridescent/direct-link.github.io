@@ -71,12 +71,12 @@ body {
     border: solid #000000 2px;
 }
 
-.footer {
+.icon {
     text-align: center;
     font-size: 1.3rem;
 }
 
-.footer a {
+.icon a {
     text-decoration:none;
 }
 
@@ -109,4 +109,11 @@ body {
 
 .night_mode:hover {
     cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    padding-left: 41%;
 }
