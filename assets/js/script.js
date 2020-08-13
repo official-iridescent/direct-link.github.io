@@ -17,6 +17,19 @@ function mostrar(e) {
             circulos[i].style.filter = 'grayscale(0%)';
         }
 
+        let inputCard = document.getElementsByClassName('link');
+        for (let i = 0; i < inputCard.length; i++){
+            inputCard[i].style.boxShadow = '0 0 10px 3px #e86100';
+        }
+
+        let idPhoto = document.getElementById('userPhoto');
+        idPhoto.style.boxShadow = "0 0 10px 3px #e86100";
+
+        let iconSosmed = document.getElementsByClassName('iconSosmed');
+        for (let i = 0; i < iconSosmed.length; i++){
+            iconSosmed[i].style.boxShadow = '0 0 10px 3px #e86100';
+        }
+
     } else {
         e.classList.remove("fa-sun-o");
         e.classList.add("fa-moon-o");
@@ -33,6 +46,14 @@ function mostrar(e) {
         for (let i = 0; i < circulos.length; i++) {
             circulos[i].style.filter = 'grayscale(0%)';
         }
+
+        let inputCard = document.getElementsByClassName('link');
+        for (let i = 0; i < inputCard.length; i++){
+            inputCard[i].style.boxShadow = '0 0 10px 3px #000000';
+        }
+
+        let idPhoto = document.getElementById('userPhoto');
+        idPhoto.style.boxShadow = "0 0 10px 3px #000000";
     }
 
 }
