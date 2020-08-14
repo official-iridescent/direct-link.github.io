@@ -22,13 +22,23 @@ function mostrar(e) {
             inputCard[i].style.boxShadow = '0 0 10px 3px #e86100';
         }
 
-        let idPhoto = document.getElementById('userPhoto');
-        idPhoto.style.boxShadow = "0 0 10px 3px #e86100";
-
         let iconSosmed = document.getElementsByClassName('iconSosmed');
         for (let i = 0; i < iconSosmed.length; i++){
             iconSosmed[i].style.boxShadow = '0 0 10px 3px #e86100';
         }
+
+        let footer = document.getElementsByClassName('footer');
+        for (let i = 0; i < footer.length; i++){
+            footer[i].style.textShadow = '2px 2px 5px #e86100';
+        }
+
+        let text = document.getElementsByClassName('text');
+        for (let i = 0; i < text.length; i++){
+            text[i].style.color = '#e86100';
+        }
+
+        let idPhoto = document.getElementById('userPhoto');
+        idPhoto.style.boxShadow = "0 0 10px 3px #e86100";
 
     } else {
         e.classList.remove("fa-sun-o");
@@ -50,6 +60,21 @@ function mostrar(e) {
         let inputCard = document.getElementsByClassName('link');
         for (let i = 0; i < inputCard.length; i++){
             inputCard[i].style.boxShadow = '0 0 10px 3px #000000';
+        }
+
+        let iconSosmed = document.getElementsByClassName('iconSosmed');
+        for (let i = 0; i < iconSosmed.length; i++){
+            iconSosmed[i].style.boxShadow = '0 0 10px 3px #000000';
+        }
+
+        let footer = document.getElementsByClassName('footer');
+        for (let i = 0; i < footer.length; i++){
+            footer[i].style.textShadow = '2px 2px 5px #000000';
+        }
+        
+        let text = document.getElementsByClassName('text');
+        for (let i = 0; i < text.length; i++){
+            text[i].style.color = '#000000';
         }
 
         let idPhoto = document.getElementById('userPhoto');

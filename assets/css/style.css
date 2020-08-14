@@ -36,9 +36,7 @@ body {
     width: 100%;
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
     font-size: 1.2rem;
-    text-shadow: 2px 2px 5px #ffffff;
     margin: 0.5em 0 1.5em 0;
 }
 
@@ -112,8 +110,13 @@ body {
 }
 
 .footer {
-    position: fixed;
-    bottom: 0px;
+    position: absolute;
+    bottom: 0%;
     text-align: center;
-    padding-left: 41%;
+    width: 98%;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.text {
+    color: #000000;
 }
