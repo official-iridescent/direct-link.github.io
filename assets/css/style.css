@@ -59,6 +59,26 @@ body {
     color: #000000;
 }
 
+.link-moon {
+    display: block;
+    background-color: #e86100;
+    color: #000000;
+    font-family: var(--font1);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all .25s cubic-bezier(.08, .59, .29, .99);
+    box-shadow: 0 0 10px 3px #e86100;
+}
+
+.link-moon:hover {
+    background-color: #000000;
+    color: #e86100;
+}
+
 .icon {
     text-align: center;
     font-size: 1.3rem;
@@ -82,6 +102,25 @@ body {
 .circulo:hover {
     background: #e86100;
     color: #000000;
+    -webkit-box-shadow: 2px 2px 2px #ffffff;
+    -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
+    box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
+}
+
+.circulo-moon {
+    background: #e86100;
+    border-radius: 52px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    font-size: 10px;
+    color: #000000;
+    box-shadow: 0 0 10px 3px #e86100;
+}
+
+.circulo-moon:hover {
+    background: #000000;
+    color: #e86100;
     -webkit-box-shadow: 2px 2px 2px #ffffff;
     -moz-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);
     box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.77);

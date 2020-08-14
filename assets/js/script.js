@@ -19,12 +19,13 @@ function mostrar(e) {
 
         let inputCard = document.getElementsByClassName('link');
         for (let i = 0; i < inputCard.length; i++){
-            inputCard[i].style.boxShadow = '0 0 10px 3px #e86100';
+            inputCard[i].classList.toggle('link-moon');
         }
 
         let iconSosmed = document.getElementsByClassName('iconSosmed');
         for (let i = 0; i < iconSosmed.length; i++){
             iconSosmed[i].style.boxShadow = '0 0 10px 3px #e86100';
+            iconSosmed[i].classList.toggle('circulo-moon');
         }
 
         let footer = document.getElementsByClassName('footer');
@@ -59,12 +60,13 @@ function mostrar(e) {
 
         let inputCard = document.getElementsByClassName('link');
         for (let i = 0; i < inputCard.length; i++){
-            inputCard[i].style.boxShadow = '0 0 10px 3px #000000';
+            inputCard[i].classList.toggle('link-moon');
         }
 
         let iconSosmed = document.getElementsByClassName('iconSosmed');
         for (let i = 0; i < iconSosmed.length; i++){
             iconSosmed[i].style.boxShadow = '0 0 10px 3px #000000';
+            iconSosmed[i].classList.toggle('circulo-moon');
         }
 
         let footer = document.getElementsByClassName('footer');
