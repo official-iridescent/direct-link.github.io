@@ -10,6 +10,16 @@ body {
     background-color: #e86100;
 }
 
+::-moz-selection {
+    color: #e86100;
+    background: #000000;
+}
+
+::selection {
+    color: #e86100;
+    background: #000000;
+}
+
 #userPhoto {
     width: 100px;
     height: 100px;
