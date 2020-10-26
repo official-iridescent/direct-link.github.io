@@ -9,8 +9,8 @@
     <meta name="keywords" content="official-iridescent, iridescent official, official iridescent, web iridescent, brand lokal, muhammad ihsan, local brand, local pride, localpride, indonesia, cimahi, cimahi selatan, leuwigajah"/>
     <meta httpEquiv="x-ua-compatible" content="ie=edge"/>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
 </head>
 <body>
     <div class="btn-chat" id="livechat-compact-container">
@@ -23,37 +23,37 @@
             <button class="icon-close btn" onclick="closeForm()"><span class="fa fa-times icon-close"></span></button>
             <form method="post" role="form" data-toggle="validator">
                 <div class="form-group margin-top-m">
-                    <label for="link" class="control-label">Link Barang :</label>
+                    <label for="link" class="control-label">Link Barang*</label>
                     <input type="text" id="link" name="link" class="form-control" required autocomplete="off" placeholder="https://www.instagram.com/p/CGgcyCZlkeT/">
                 </div>
                 <div class="form-group">
-                    <label for="nleng" class="control-label">Nama Lengkap :</label>
-                    <input type="text" id="nleng" name="nleng" class="form-control" required autocomplete="off" placeholder="Nama Kalian">
+                    <label for="nleng" class="control-label">Nama Lengkap*</label>
+                    <input type="text" id="nleng" name="nleng" class="form-control" required autocomplete="off" placeholder="Nama penerima">
                 </div>
                 <div class="form-group">
-                    <label for="nope" class="control-label">Nomor HP :</label>
+                    <label for="nope" class="control-label">Nomor HP*</label>
                     <input type="number" id="nope" name="nope" class="form-control" required autocomplete="off" placeholder="Nomot HP yang aktif">
                 </div>
                 <div class="form-group">
-                    <label for="almt" class="control-label">Alamat :</label>
-                    <input type="text" id="almt" name="almt" class="form-control" required autocomplete="off" placeholder="Jln / Komp / Perum / dll, (Patokan)"><br>
+                    <label for="almt" class="control-label">Alamat*</label>
+                    <input type="text" id="almt" name="almt" class="form-control" required autocomplete="off" placeholder="Jln / Komp / Perum / RT / RW / dll, (Patokan)"><br>
                     <div class="sub-almt">
-                        <label for="kel" class="control-label">- Kelurahan</label>
+                        <label for="kel" class="control-label">Kelurahan*</label>
                         <input type="text" id="kel" name="kel" class="form-control" required autocomplete="off" placeholder="Kelurahan tempat tinggal kalian">
-                        <label for="kec" class="control-label">- Kecamatan</label>
+                        <label for="kec" class="control-label">Kecamatan*</label>
                         <input type="text" id="kec" name="kec" class="form-control" required autocomplete="off" placeholder="Kecamatan tempat tinggal kalian">
-                        <label for="kota" class="control-label">- Kota/Kabupaten</label>
+                        <label for="kota" class="control-label">Kota/Kabupaten*</label>
                         <input type="text" id="kota" name="kota" class="form-control" required autocomplete="off" placeholder="Kota/Kabupaten tempat tinggal kalian">
-                        <label for="prov" class="control-label">- Provinsi</label>
+                        <label for="prov" class="control-label">Provinsi*</label>
                         <input type="text" id="prov" name="prov" class="form-control" required autocomplete="off" placeholder="Provinsi tempat tinggal kalian">
-                        <label for="pos" class="control-label">- Kode POS</label>
+                        <label for="pos" class="control-label">Kode POS*</label>
                         <input type="number" id="pos" name="pos" class="form-control" required autocomplete="off" placeholder="Kode POS tempat tinggal kalian">
                     </div>
                 </div><br>
                 <div class="row">
                 <div class="col-md-6 mid-col">
                     <div class="form-group">
-                        <label for="pengiriman" class="control-label">Pengiriman :</label>
+                        <label for="pengiriman" class="control-label">Pengiriman*</label>
                         <select name="pengiriman" id="pengiriman" class="form-control" required autocomplete="off">
                             <option value="JNE">JNE</option>
                             <option value="J&T">J&T</option>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="col-md-6 mid-col">
                     <div class="form-group">
-                        <label for="metpem" class="control-label">Metode Pembayaran :</label>
+                        <label for="metpem" class="control-label">Metode Pembayaran*</label>
                         <select name="metpem" id="metpem" class="form-control" required autocomplete="off">
                             <option value="BCA">BCA</option>
                             <option value="OVO">OVO</option>
@@ -74,7 +74,7 @@
                     </div>
                 </div>
                 </div><br>
-                <button type="button" onclick="forwardMessage()" class="btn btn-lg submit w-100 margin-top-s"  id="btnSubmit">Kirim</button>
+                <button type="button" onclick="forwardMessage()" class="btn btn-lg submit w-100 margin-top-s"  id="btnSubmit">K I R I M</button>
             </form>
         </div>
     </section>
@@ -83,28 +83,25 @@
     <a href="https://www.instagram.com/official.iridescent/" target="_blank" class="text" id="userName">@official.iridescent</a>
     <div id="links">
         <a class="link" href="https://official-iridescent.tk" target="_blank" style="border-radius: 25px;">
-            <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
              W E B S I T E
-            <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
-        </a>
+        </a><br>
         <a class="link" href="https://shp.ee/b9rzdqu" target="_blank" style="border-radius: 25px;">
-            <i class="fa fa-shopping-cart fa-fw" aria-hidden="true"></i>
              S H O P E E
-            <i class="fa fa-shopping-cart fa-fw" aria-hidden="true"></i>
         </a>
-        <!-- <a class="link" href="https://m.tokopedia.com/bmrby" target="_blank" style="border-radius: 25px;">
-            <i class="fa fa-shopping-cart fa-fw" aria-hidden="true"></i> T O K O P E D I A -->
+        <a class="link" href="https://m.tokopedia.com/ofc-iridescent" target="_blank" style="border-radius: 25px;">
+             T O K O P E D I A
         </a>
         <a class="link" href="https://www.google.com/maps/place/Leuwigajah/@-6.9139081,107.5282428,17z/data=!3m1!4b1!4m5!3m4!1s0x2e68e59ef00dd45d:0x323ab07aa7fbb530!8m2!3d-6.9139134!4d107.5304314" target="_blank" style="border-radius: 25px;">
-            <i class="fa fa-handshake-o fa-fw" aria-hidden="true"></i>
              C O D
-            <i class="fa fa-handshake-o fa-fw" aria-hidden="true"></i>
-        </a>
+        </a><br>
         <a class="link" href="https://api.whatsapp.com/send?phone=6283804308303" target="_blank" style="border-radius: 25px;">
             CRITICS, SUGGESTIONS & QUESTIONS
         </a>
     </div>
     <div class="icon">
+        <a href="https://api.whatsapp.com/send?phone=6288219778851" target="_blank">
+            <i style="line-height: 38px;" class="fa fa-whatsapp circulo iconSosmed" aria-hidden="true"></i>
+        </a>
         <a href="https://www.instagram.com/official.iridescent/" target="_blank">
             <i style="line-height: 38px;" class="fa fa-instagram circulo iconSosmed" aria-hidden="true"></i>
         </a>

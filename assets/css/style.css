@@ -54,7 +54,7 @@ body {
     margin: 0.5em 0 1.5em 0;
 }
 #links {
-    max-width: 675px;
+    max-width: 500px;
     width: auto;
     display: block;
     margin: 27px auto;
@@ -10289,7 +10289,7 @@ body {
     height: 20%;
     position: fixed;
     right: 0;
-    top: 80%;
+    top: 85%;
     z-index: 100;
 }
 .btn-chat a {
