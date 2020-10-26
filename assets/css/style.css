@@ -66,7 +66,7 @@ body {
     font-family: var(--font1);
     text-align: center;
     margin-bottom: 20px;
-    padding: 17px;
+    padding: 10px;
     text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
@@ -10427,4 +10427,7 @@ input[type=number] {
 }
 .sub-almt {
     padding-left: 20px;
+}
+.merchant {
+  float: right;
 }
