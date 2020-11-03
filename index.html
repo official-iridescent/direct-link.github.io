@@ -28,11 +28,11 @@
                 </div>
                 <div class="form-group">
                     <label for="nleng" class="control-label">Nama Lengkap*</label>
-                    <input type="text" id="nleng" name="nleng" class="form-control" required autocomplete="off" placeholder="Nama penerima">
+                    <input type="text" id="nleng" name="nleng" class="form-control" required autocomplete="off" placeholder="Penerima">
                 </div>
                 <div class="form-group">
                     <label for="nope" class="control-label">Nomor HP*</label>
-                    <input type="number" id="nope" name="nope" class="form-control" required autocomplete="off" placeholder="Nomot HP yang aktif">
+                    <input type="number" id="nope" name="nope" class="form-control" required autocomplete="off" placeholder="Nomor HP harus yang aktif">
                 </div>
                 <div class="form-group">
                     <label for="almt" class="control-label">Alamat*</label>
@@ -45,7 +45,41 @@
                         <label for="kota" class="control-label">Kota/Kabupaten*</label>
                         <input type="text" id="kota" name="kota" class="form-control" required autocomplete="off" placeholder="Kota/Kabupaten tempat tinggal kalian">
                         <label for="prov" class="control-label">Provinsi*</label>
-                        <input type="text" id="prov" name="prov" class="form-control" required autocomplete="off" placeholder="Provinsi tempat tinggal kalian">
+                        <select name="prov" id="prov" class="form-control" required autocomplete="off">
+                            <option value="Bali">Bali</option>
+                            <option value="Bangka Belitung">Bangka Belitung</option>
+                            <option value="Banten">Banten</option>
+                            <option value="Bengkulu">Bengkulu</option>
+                            <option value="DI Yogyakarta">DI Yogyakarta</option>
+                            <option value="DKI Jakarta">DKI Jakarta</option>
+                            <option value="Gorontalo">Gorontalo</option>
+                            <option value="Jambi">Jambi</option>
+                            <option value="Jawa Barat">Jawa Barat</option>
+                            <option value="Jawa Tengah">Jawa Tengah</option>
+                            <option value="Jawa Timur">Jawa Timur</option>
+                            <option value="Kalimantan Barat">Kalimantan Barat</option>
+                            <option value="Kalimantan Tengah">Kalimantan Tengah</option>
+                            <option value="Kalimantan Timur">Kalimantan Timur</option>
+                            <option value="Kalimantan Utara">Kalimantan Utara</option>
+                            <option value="Kepulauan Riau">Kepulauan Riau</option>
+                            <option value="Lampung">Lampung</option>
+                            <option value="Maluku">Maluku</option>
+                            <option value="Maluku Utara">Maluku Utara</option>
+                            <option value="Nanggroe Aceh Darussalam">Nanggroe Aceh Darussalam</option>
+                            <option value="Nusa Tenggara Barat">Nusa Tenggara Barat</option>
+                            <option value="Nusa Tenggara Timur">Nusa Tenggara Timur</option>
+                            <option value="Papua">Papua</option>
+                            <option value="Papua Barat">Papua Barat</option>
+                            <option value="Riau">Riau</option>
+                            <option value="Sulawesi Barat">Sulawesi Barat</option>
+                            <option value="Sulawesi Selatan">Sulawesi Selatan</option>
+                            <option value="Sulawesi Tengah">Sulawesi Tengah</option>
+                            <option value="Sulawesi Tenggara">Sulawesi Tenggara</option>
+                            <option value="Sulawesi Utara">Sulawesi Utara</option>
+                            <option value="Sumatra Barat">Sumatra Barat</option>
+                            <option value="Sumatra Selatan">Sumatra Selatan</option>
+                            <option value="Sumatra Utara">Sumatra Utara</option>
+                        </select>
                         <label for="pos" class="control-label">Kode POS*</label>
                         <input type="number" id="pos" name="pos" class="form-control" required autocomplete="off" placeholder="Kode POS tempat tinggal kalian">
                     </div>
@@ -69,7 +103,8 @@
                             <option value="BCA">BCA</option>
                             <option value="OVO">OVO</option>
                             <option value="GO-PAY">GO-PAY</option>
-                            <option value="Rekber Shopee">Rekber Shopee</option>
+                            <option value="Rekber Shopee">Rekber via Shopee</option>
+                            <option value="Rekber Tokopedia">Rekber via Tokopedia</option>
                         </select>
                     </div>
                 </div>
