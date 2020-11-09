@@ -131,7 +131,7 @@ function forwardMessage() {
     const pengiriman = document.getElementById('pengiriman').value;
     const metpem = document.getElementById('metpem').value;
 
-    const message = `Hallo min, aku mau order barang ini dong❤️%0A•%0ALink Barang : ${link}%0ANama Lengkap : ${nleng}%0ANomor HP : ${nope}%0AAlamat : ${almt}, Kel. ${kel}, Kec. ${kec}, Kota/Kabupaten. ${kota}, ${prov}, ${pos}.%0APengiriman : ${pengiriman}%0AMetode Pembayaran : ${metpem}%0A•
+    const message = `Heyo, I wanna this stuff pls%0A•%0ALink : ${link}%0AName : ${nleng}%0APhone : ${nope}%0AAddress : ${almt}, ${kel}, ${kec}, ${kota}, ${prov}. ${pos}.%0AShipping : ${pengiriman}%0APayment via : ${metpem}%0A•
     `;
 
     window.open(`https://api.whatsapp.com/send?phone=+6288219778851&text=${message}`);
