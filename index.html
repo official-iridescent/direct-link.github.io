@@ -23,28 +23,28 @@
             <button class="icon-close btn" onclick="closeForm()"><span class="fa fa-times icon-close"></span></button>
             <form method="post" role="form" data-toggle="validator">
                 <div class="form-group margin-top-m">
-                    <label for="link" class="control-label">Link Barang*</label>
+                    <label for="link" class="control-label">Post Link<span style="color: red;">*</span></label>
                     <input type="text" id="link" name="link" class="form-control" required autocomplete="off" placeholder="https://www.instagram.com/p/CGgcyCZlkeT/">
                 </div>
                 <div class="form-group">
-                    <label for="nleng" class="control-label">Nama Lengkap*</label>
-                    <input type="text" id="nleng" name="nleng" class="form-control" required autocomplete="off" placeholder="Penerima">
+                    <label for="nleng" class="control-label">Full Name<span style="color: red;">*</span></label>
+                    <input type="text" id="nleng" name="nleng" class="form-control" required autocomplete="off" placeholder="Receiver Name">
                 </div>
                 <div class="form-group">
-                    <label for="nope" class="control-label">Nomor HP*</label>
-                    <input type="number" id="nope" name="nope" class="form-control" required autocomplete="off" placeholder="Nomor HP harus yang aktif">
+                    <label for="nope" class="control-label">Phone Number<span style="color: red;">*</span></label>
+                    <input type="number" id="nope" name="nope" class="form-control" required autocomplete="off" placeholder="Phone Number should be active">
                 </div>
                 <div class="form-group">
-                    <label for="almt" class="control-label">Alamat*</label>
-                    <input type="text" id="almt" name="almt" class="form-control" required autocomplete="off" placeholder="Jln / Komp / Perum / RT / RW / dll, (Patokan)"><br>
+                    <label for="almt" class="control-label">Address<span style="color: red;">*</span></label>
+                    <input type="text" id="almt" name="almt" class="form-control" required autocomplete="off" placeholder="Street, (Benchmark)"><br>
                     <div class="sub-almt">
-                        <label for="kel" class="control-label">Kelurahan*</label>
-                        <input type="text" id="kel" name="kel" class="form-control" required autocomplete="off" placeholder="Kelurahan tempat tinggal kalian">
-                        <label for="kec" class="control-label">Kecamatan*</label>
-                        <input type="text" id="kec" name="kec" class="form-control" required autocomplete="off" placeholder="Kecamatan tempat tinggal kalian">
-                        <label for="kota" class="control-label">Kota/Kabupaten*</label>
-                        <input type="text" id="kota" name="kota" class="form-control" required autocomplete="off" placeholder="Kota/Kabupaten tempat tinggal kalian">
-                        <label for="prov" class="control-label">Provinsi*</label>
+                        <label for="kel" class="control-label">District<span style="color: red;">*</span></label>
+                        <input type="text" id="kel" name="kel" class="form-control" required autocomplete="off" placeholder="District where you live">
+                        <label for="kec" class="control-label">Sub District<span style="color: red;">*</span></label>
+                        <input type="text" id="kec" name="kec" class="form-control" required autocomplete="off" placeholder="Sub District where you live">
+                        <label for="kota" class="control-label">City<span style="color: red;">*</span></label>
+                        <input type="text" id="kota" name="kota" class="form-control" required autocomplete="off" placeholder="City where you live">
+                        <label for="prov" class="control-label">Province<span style="color: red;">*</span></label>
                         <select name="prov" id="prov" class="form-control" required autocomplete="off">
                             <option value="Bali">Bali</option>
                             <option value="Bangka Belitung">Bangka Belitung</option>
@@ -80,14 +80,14 @@
                             <option value="Sumatra Selatan">Sumatra Selatan</option>
                             <option value="Sumatra Utara">Sumatra Utara</option>
                         </select>
-                        <label for="pos" class="control-label">Kode POS*</label>
-                        <input type="number" id="pos" name="pos" class="form-control" required autocomplete="off" placeholder="Kode POS tempat tinggal kalian">
+                        <label for="pos" class="control-label">ZIP Code<span style="color: red;">*</span></label>
+                        <input type="number" id="pos" name="pos" class="form-control" required autocomplete="off" placeholder="ZIP Code where you live">
                     </div>
                 </div><br>
                 <div class="row">
                 <div class="col-md-6 mid-col">
                     <div class="form-group">
-                        <label for="pengiriman" class="control-label">Pengiriman*</label>
+                        <label for="pengiriman" class="control-label">Courier<span style="color: red;">*</span></label>
                         <select name="pengiriman" id="pengiriman" class="form-control" required autocomplete="off">
                             <option value="JNE">JNE</option>
                             <option value="JNT">JNT</option>
@@ -98,7 +98,7 @@
                 </div>
                 <div class="col-md-6 mid-col">
                     <div class="form-group">
-                        <label for="metpem" class="control-label">Metode Pembayaran*</label>
+                        <label for="metpem" class="control-label">Pay Method<span style="color: red;">*</span></label>
                         <select name="metpem" id="metpem" class="form-control" required autocomplete="off">
                             <option value="BCA">BCA</option>
                             <option value="OVO">OVO</option>
@@ -109,12 +109,12 @@
                     </div>
                 </div>
                 </div><br>
-                <button type="button" onclick="forwardMessage()" class="btn btn-lg submit w-100 margin-top-s"  id="btnSubmit">K I R I M</button>
+                <button type="button" onclick="forwardMessage()" class="btn btn-lg submit w-100 margin-top-s"  id="btnSubmit">SEND</button>
             </form>
         </div>
     </section>
     <i onclick="mostrar(this)" class="fa fa-moon-o fa-2x night_mode"></i>
-    <img id="userPhoto" src="assets/img/LOGO.jpg" alt="User Photo">
+    <img id="userPhoto" src="assets/img/LOGO V2.png" alt="User Photo">
     <a href="https://www.instagram.com/official.iridescent/" target="_blank" class="text" id="userName">@official.iridescent</a>
     <div id="links" class="col-md-12">
         <a class="link" href="https://official-iridescent.tk" target="_blank" style="border-radius: 25px;">
